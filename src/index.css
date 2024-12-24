@@ -1,0 +1,74 @@
+.header{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  background-image: url("https://wallpapercg.com/download/heartbeat-stock-market-candlestick-trading-chart-amoled--19463.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.search{
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  width: 300px;
+  margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.search:hover{
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  background-color: #ee82ee;
+  transform: scale(1.1);
+}
+h1{
+  background: linear-gradient(
+    135deg, 
+    #ff0000, 
+    #4b0082, 
+    #d1c7d1 
+  );
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  padding: 4px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(6,300px);
+  grid-auto-rows: 270px;
+margin: 40px;
+background-color:white;
+
+}
+.container > div{
+background-color: black;
+color: white;
+margin: 10px;
+padding-top: 20px;
+color: white;
+text-align: center;
+border-radius: 10px;
+height: 45vh;
+grid-row: span 2;
+transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+background-image:url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148886014.jpg?ga=GA1.1.700569789.1734980865&semt=ais_hybrid");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.container > div:hover{
+  transform: scale(1.1);
+  background: linear-gradient(
+    135deg, 
+    #ff0000, 
+    #4b0082, 
+    #ee82ee  
+  );
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
