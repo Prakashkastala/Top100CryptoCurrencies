@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Prakashkastala/second/static/css/main.6f1a5a13.css",
+    "main.js": "/Prakashkastala/second/static/js/main.8fff09e9.js",
+    "index.html": "/Prakashkastala/second/index.html",
+    "main.6f1a5a13.css.map": "/Prakashkastala/second/static/css/main.6f1a5a13.css.map",
+    "main.8fff09e9.js.map": "/Prakashkastala/second/static/js/main.8fff09e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f1a5a13.css",
+    "static/js/main.8fff09e9.js"
+  ]
+}
