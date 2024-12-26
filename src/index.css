@@ -81,7 +81,7 @@ background-position: center;
     background-color:white;
   }
   .container > div{
-    height: 50vh;
+    height: 60vh;
     grid-row: span 2;
   }
 }
